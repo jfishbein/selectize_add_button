@@ -18,7 +18,7 @@ This plugin allows you to create an "add" button, or any other general purpose b
 
 ### Parameters
 
- * `func` _(required)_ - function callback to be called when button is pressed. Received the a JQuery item as its only parameter.
+ * `func` _(required)_ - function callback to be called when button is pressed. Receives the JQuery item as its only parameter.
  * `label` - Label for the unclicked button (Default: '+')
  * `title` - Tooltip title for the button (Default: 'Add')
  * `className` - Class name for the unclicked button. Clicked button will get this named with a "ed" appended. (Default: 'add')
