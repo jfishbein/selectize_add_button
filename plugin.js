@@ -68,7 +68,7 @@ Selectize.define('enhanced_selection', function() {
                 var $item = $(e.currentTarget).parent();
                 self.setActiveItem($item);
                 if (typeof options.func === "function") {
-                    options.func.call(this, $item);
+                    options.func.call(self, $item);
                 }
                 var $option = $item.find('.' + options.className);
                 $option.html("&#10003;"); //checkmark glyph
